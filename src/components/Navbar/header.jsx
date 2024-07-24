@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import profile_icon from "../assets/icons/profile_icon.svg";
-import upload_icon from "../assets/icons/upload_rx.svg";
-import logo from "../assets/icons/netmed-logo.svg";
-import offers_icon from "../assets/icons/offers_icon.svg";
-import cart_icon from "../assets/icons/cart_icon.svg";
+import profile_icon from "../../assets/icons/profile_icon.svg";
+import upload_icon from "../../assets/icons/upload_rx.svg";
+import logo from "../../assets/icons/netmed-logo.svg";
+import offers_icon from "../../assets/icons/offers_icon.svg";
+import cart_icon from "../../assets/icons/cart_icon.svg";
 
 import { FaLocationDot } from "react-icons/fa6";
 import { MdMyLocation } from "react-icons/md";

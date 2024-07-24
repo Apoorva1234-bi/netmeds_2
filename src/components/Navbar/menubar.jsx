@@ -1,7 +1,7 @@
-import medicine_icon from "../assets/icons/medicine.svg";
-import diagnostics_icon from "../assets/icons/diagnostics.svg";
-import wellness_icon from "../assets/icons/wellness.svg";
-import healthlibrary_icon from "../assets/icons/health-library.svg";
+import medicine_icon from "../../assets/icons/medicine.svg";
+import diagnostics_icon from "../../assets/icons/diagnostics.svg";
+import wellness_icon from "../../assets/icons/wellness.svg";
+import healthlibrary_icon from "../../assets/icons/health-library.svg";
 import { useState } from "react";
 
 function MenuBar() {
