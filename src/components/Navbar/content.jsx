@@ -1,5 +1,5 @@
-import Emptycart from "../../assets/icons/emptycart.svg";
-import logo from "../../assets/icons/netmed-logo.svg";
+import Emptycart from "../../assets/icons/navbar_icons/emptycart.svg";
+import logo from "../../assets/icons/navbar_icons/netmed-logo.svg";
 
 function Content() {
   return (
