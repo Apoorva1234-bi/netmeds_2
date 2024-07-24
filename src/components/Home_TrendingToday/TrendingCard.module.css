@@ -1,0 +1,25 @@
+#TrendingCards_Container  .slider_container .slider_section a img {
+    max-width: 100%;
+    height: 270px;
+    padding: 10px;
+    border-radius: 20px !important;
+}
+
+/* .slider_container .slick-prev:before,.slider_container .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: red !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+#TrendingCards_Container .slick-slider .slick-prev:before{
+    color: red !important;
+}
+
+/* #TrendingCards_Container .slick-slider .slick-arrow{
+    color: red !important;
+} */
+

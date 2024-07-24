@@ -1,0 +1,46 @@
+#limitedCarousel_Container {
+  background-color: brown;
+
+  align-items: center;
+  margin-right: 16px !important;
+  /* max-width: 700px !important ;  */
+  max-width: 100% !important;
+  overflow: hidden;
+  /* height: 600px; */
+}
+
+.limitedCarouselRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  position: relative;
+  margin-right: 11px;
+  width: 100%;
+  height: 500px;
+}
+
+.limitedSlider_container{
+  width: 250px !important;
+  margin-right: 11.5px !important;
+
+}
+
+
+.limitedSlider_section {
+  /* height: 100px; */
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  width: 200px !important;
+  margin-right: 16px !important;
+  /* background: #fff; */
+  border-radius: 8px;
+}
+
+
+.limitedSlider_section a img {
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+}

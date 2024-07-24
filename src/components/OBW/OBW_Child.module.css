@@ -1,0 +1,54 @@
+.cat_list a {
+    position: relative;
+    display: flex; /* or inline-block, depending on your layout needs */
+    text-decoration: none;
+    align-items: center;
+}
+.cat_list{
+    margin: 0 2% 0 0;
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: 0 6px 12px -4px rgba(11, 18, 25, .1);
+    position: relative;
+    width: 100% !important; 
+}
+
+.cat_list a::before{
+    content: "";
+    background: url(../../assets//Images//Arrows/next.svg) center no-repeat;
+    width: 24px;
+    height: 64px;
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content_txt{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+    font-family: 'LatoBold';
+    color: #0b1219; 
+}
+.save_text{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'LatoBold';
+    color: #5ba41c;
+    display: block;
+}
+
+.cat_img img{
+    margin-right: 24px;
+}

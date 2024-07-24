@@ -1,0 +1,38 @@
+.offercontainer{
+    background-color: rgb(243,243,243);
+}
+
+.Offerbreadcrumbs{
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+.items{
+    border: 2px solid green;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0px !important;
+    padding-left: 0px  !important;
+}
+
+.item_offChild{
+    display: inline-block;  
+}
+
+.item_childoff{
+    text-decoration: none;
+    color:  #24aeb1 !important;
+    /* margin-left: 4px; */
+    margin-right: 12px; 
+}
+
+.offer_title{
+    font-family: 'Lato', sans-serif;
+    padding-left: 16px;
+    padding-top: 4px;
+    padding-right: 16px;
+    padding-bottom: 4px;
+    font-size: 24px !important;
+}

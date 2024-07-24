@@ -1,0 +1,155 @@
+#PaymentBox_Container{
+    /* border: 4px solid violet; */
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 16px !important;
+    max-width: 100% !important ;
+    /* background-color: rgb(255,255,255); */
+    /* overflow: hidden; */
+ }
+ 
+ .ellipsis{
+     text-decoration: none;
+ }
+ .slider_container{
+     /* border: 8px solid goldenrod; */
+     margin-right: 16px;
+ }
+ 
+ .slider_section{
+     /* border: 1px solid rgb(243, 3, 191); */
+     height: 74px;
+     padding-top: 12px;
+     padding-right:  16px;
+     padding-bottom:  12px;
+     padding-left:  16px;
+     display: flex;
+     align-items: center;
+     border-radius: 8px;
+     /* width: 470px !important; */
+     width: 95% !important; /*for width 100%*/
+     margin-right: 16px !important;
+     overflow: hidden;
+     /* margin-right: 12px; */
+     background: #fff;
+     border-radius: 8px;
+     box-shadow: 0 6px 12px -4px rgba(11, 18, 25, .1);
+ }
+ 
+ .slider_section a img{
+     height: 36px;
+     width: 52px;
+     margin-right: 14px;
+     float: left;
+     padding-right: 14px;
+     border-right: 1px solid rgba(21, 27, 57, 0.1);
+     margin-top: 10px;
+     flex-shrink: 0; 
+ }
+ 
+ .slide_description{
+     width: 81%;
+     line-height: normal;
+     overflow: hidden;
+     float: right !important;
+     margin-left: -100px;
+     flex-direction: column !important;
+ }
+ 
+ .ellipsis{
+     font-size: 12px;
+     color: #151b39;
+     width: 100%;
+     line-height: 24px !important;
+     white-space: nowrap;
+     overflow: hidden !important;
+     text-overflow: ellipsis !important;
+ }
+ 
+ /* .ellipsis p{
+     font-size: 11px;
+     color: #6F7284 !important;
+     margin: 0px;
+     
+ } */
+ 
+ .ellipsis b {
+     display: block;
+     white-space: nowrap; 
+     overflow: hidden;
+     text-overflow: ellipsis;
+     width: 100%; 
+ }
+ 
+ .ellipsis p {
+     font-size: 11px;
+     color: #6F7284 !important;
+     margin: 0px;
+     white-space: nowrap; 
+     overflow: hidden;
+     text-overflow: ellipsis;
+     width: 100%; 
+ }
+ 
+ /* #PaymentBox_Container .slick-prev {
+     width: 30px;
+     height: 30px;
+     background-color: rgba(146, 46, 46) !important; 
+     color: green !important;
+     border-radius: 50%; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 1;
+ }
+ 
+ #PaymentBox_Container .slick-next {
+     width: 30px;
+     height: 30px;
+     background-color: rgba(146, 46, 46) !important; 
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 1;
+ } */
+ 
+/*  
+.slick-prev:before {
+     font-size: 20px;
+     color: red !important; 
+ }
+ 
+ 
+.slick-next:before {
+     font-size: 20px;
+     color: red !important; 
+ }
+ 
+ 
+ .slick-prev {
+     left: -20px; 
+ }
+ 
+ .slick-next {
+     right: -20px;
+ } */
+ 
+ 
+ /* Assuming the slider is inside a container with id 'PaymentBox_Container' */
+ #PaymentBox_Container .slick-slider .slick-prev:before, 
+ #PaymentBox_Container .slick-slider .slick-next:before {
+     font-size: 20px;
+     color: rgb(231, 84, 26) !important; /* Ensure the color is applied */
+ }
+ 
+ /* Positioning the arrows */
+ #PaymentBox_Container .slick-prev {
+     left: -40px; /* Adjust as needed */
+ }
+ 
+ #PaymentBox_Container .slick-next {
+     right: -40px; /* Adjust as needed */
+ }
+ 
