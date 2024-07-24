@@ -1,0 +1,246 @@
+.page-header {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #32aeb1;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.header-pannel {
+  display: flex;
+  margin-left: 70px;
+}
+.logo {
+  height: 90px;
+  width: 168px;
+  padding: 20px;
+}
+.search-bar {
+  height: 90px;
+  width: 607px;
+  display: flex;
+  padding: 20px;
+}
+.search-list {
+  border-radius: 5px;
+  height: 48px;
+  width: 607px;
+  padding: 10px;
+  background-color: white;
+}
+
+.list-name {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #99837e;
+}
+.list-card {
+  padding-left: 5px;
+}
+.verticalbar {
+  color: gray;
+  padding: 5px;
+}
+.search-input {
+  padding-left: 5px;
+  border: none;
+  width: 60%;
+  font-size: 14px;
+}
+input:focus {
+  outline: none; /* Removes the default focus outline */
+  border: none; /* Removes the border */
+}
+select:focus {
+  outline: none; /* Removes the default focus outline */
+  border: none; /* Removes the border */
+}
+.header-options {
+  padding: 25px;
+  display: flex;
+  height: 90px;
+  width: 560px;
+  justify-content: space-between;
+  color: white;
+}
+.option-icon {
+  padding: 5px;
+}
+.option-name {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.upload-option a {
+  text-decoration: none; /* Removes the underline */
+}
+/*  Styling MenuBar From Here
+*/
+.menubar {
+  height: 48px;
+  width: 100%;
+  padding: 0px 40px 0px 40px;
+  background-color: #32aeb1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu-name {
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+}
+/*each icon list styling*/
+.medicinelist {
+  position: absolute;
+  top: 143px;
+  height: 100px;
+  background-color: rgb(254, 254, 254);
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.menubar-list {
+  color: gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menubar-item {
+  background-color: rgb(254, 254, 254);
+  font-size: 14px;
+  padding: 5px 25px;
+  margin: 0;
+}
+
+.menubar-item:hover {
+  color: #32aeb1; /* Changes text color to blue on hover */
+  background-color: #f3f7fb; /* Changes background color on hover */
+}
+.Diagnosticslist {
+  position: absolute;
+  top: 143px;
+  height: 200px;
+  background-color: rgb(254, 254, 254);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 200px;
+}
+
+.wellnesslist {
+  position: absolute;
+  top: 143px;
+  height: 400px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.head {
+  padding-top: 10px;
+  color: #32aeb1;
+  font-size: 16px;
+  font-weight: 80%;
+}
+.part {
+  background-color: rgb(254, 254, 254);
+  border-right: 1px solid #ccc;
+  width: 200px;
+  flex: 1;
+  height: 430px;
+  margin: 0;
+  padding: 0;
+}
+/*styling for navbar*/
+.nav-sections {
+  background-color: #f3f7fb;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.ui-menu {
+  display: flex; /* Use flexbox to layout children */
+  list-style-type: none; /* Remove default bullet points */
+}
+
+.ui-menu li {
+  margin-right: 20px; /* Space between items */
+}
+
+.ui-menu a {
+  font-size: 14px;
+  color: black;
+
+  text-decoration: none; /* Remove underline from links */
+  /* Inherit text color */
+}
+/*styling dropdown card */
+.clickable-text {
+  color: #32aeb1;
+}
+
+.popup-card {
+  position: absolute;
+  height: 351px;
+  width: 360px;
+  border-radius: 5px;
+  top: 75px;
+  left: 260px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+/*popup-card styling*/
+
+.title-card {
+  font-size: 16px;
+}
+.body-card {
+  font-size: 14px;
+  color: #858b9c;
+}
+.card-part1 {
+  padding: 10px 5px 0p;
+}
+.button-card {
+  padding: 10px;
+  border: none;
+  width: 328px;
+  height: 40px;
+  background-color: #32aeb1;
+  color: #f3f7fb;
+  border-radius: 5px;
+}
+.input-pincode {
+  margin-top: 16px;
+  font-size: 14px;
+  padding: 8px 0px 0px 15px;
+  width: 328px;
+  height: 40px;
+  background-color: #f3f7fb;
+}
+.end-text {
+  font-size: 14px;
+  padding-top: 10px;
+  color: #facadb;
+}
+.pincode {
+  padding-left: 10px;
+  border: none;
+  background-color: #f3f7fb;
+}
+/*netmeds-content styling part */
+.netmeds-content {
+  height: 500px;
+  width: 70%;
+  margin: 50px 200px 50px 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.emptycart {
+  padding-top: 100px;
+  height: 350px;
+  width: 400px;
+}
+/*chatgptfor wellness card*/
