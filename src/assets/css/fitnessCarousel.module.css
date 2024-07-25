@@ -1,0 +1,52 @@
+
+/* fitnessCarousel.module.css */
+.fitnessBody {
+    background-color: rgb(161,177,196) ;;
+    padding: 20px 0;
+    width: 100%; /* Use viewport width instead of percentage */
+    margin: 0; /* Ensure no margins are affecting the width */
+  }
+  
+  
+  .carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .carouselRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .carousel-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Add space between the cards */
+    width: 80%; /* Optional: set a width to keep the cards centered */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .card {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-family: LatoSemibold;
+    height: 310px;
+    width: 200px;
+    display: flex;
+  }
+  
+  .card-btn {
+    color: #ffffff;
+    background-color: #24aeb1;
+    width: 100%;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,80 @@
+
+.offerCard {
+    margin-bottom: 20px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 200px !important;
+    width: 600px !important;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+  .offerDetails {
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .offerPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .originalPrice {
+    text-decoration: line-through;
+    margin-right: 100px;
+    color: gray;
+  }
+  
+  .discount {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .buttonContainer {
+    margin-top: auto;
+    text-align: right;
+  }
+  
+  .quantitySelector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantitySelector button {
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantitySelector span {
+    margin: 0 10px;
+    font-size: 1.25rem;
+  }
+  .quickOrderCard{
+   
+    height: 200px !important;
+    width: 500px !important;
+    
+    
+  }
+  .quickOrderCardBody{
+    text-align: left;
+  }
+  

@@ -1,0 +1,163 @@
+
+/* without slick */
+/* 
+.card {
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 6px;
+  font-family: LatoSemibold;
+  height: 350px;
+  width: 200px;
+  display: flex;
+}
+
+.common-img {
+  margin-left: 110px;
+  width: 30px;
+}
+
+.price-box {
+  text-align: left;
+}
+.final-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+  margin-left: 6px;
+}
+.discount {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5ba41c;
+  font-size: 18px;
+
+  font-weight: 700;
+  line-height: 20px;
+}
+.card-btn {
+  color: #ffffff;
+  background-color: #24aeb1;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+.cardImage {
+  height: 100px;
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 50px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.cardContent {
+  padding: 10px;
+}
+
+.cardTitle {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  font-size: 18px;
+}
+.cardTitle:hover {
+  white-space: normal;
+  overflow: visible;
+}
+ */
+
+/* ---------------------------------------------- */
+/* apoorvas or 3rd try */
+.card {
+  text-align: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  font-family: "LatoSemibold";
+  height: 350px !important;
+  width: 200px !important;
+  display: flex;
+}
+
+.common-img {
+  margin-left: 110px;
+  width: 10px;
+  height: 20px !important;
+}
+
+.price-box {
+  text-align: left;
+}
+.final-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  text-align: left;
+
+  font-size: 14px;
+  color: gray;
+  margin-left: 6px;
+}
+.discount {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5ba41c;
+  font-size: 18px;
+
+  font-weight: 700;
+  line-height: 20px;
+}
+
+
+.cardImage {
+  height: 100px;
+  width: 50%;
+  margin-top: 5px;
+  margin-left: 50px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.cardContent {
+  padding: 10px;
+  width: 100% !important;
+}
+
+.cardTitle {
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cardTitle:hover {
+  white-space: normal;
+  overflow: visible;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    margin: 3px;
+  }
+}

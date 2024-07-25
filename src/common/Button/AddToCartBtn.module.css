@@ -1,0 +1,11 @@
+.addToCartBtn {
+    color: #ffffff !important;
+    background-color: #24aeb1 !important;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .addToCartBtn:hover {
+    background-color: #218838;
+  }

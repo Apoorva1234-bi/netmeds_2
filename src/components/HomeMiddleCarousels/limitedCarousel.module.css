@@ -1,0 +1,115 @@
+
+#limitedCarousel_Container {
+  background-color: brown;
+
+  align-items: center;
+  margin-right: 16px !important;
+  max-width: 80rem !important ;
+
+  height: 500px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.limitTitle {
+  color: #fffff2;
+  font-size: 25px;
+}
+.limitP {
+  font-style: italic;
+  color: #fffff2;
+  font-size: 18px;
+}
+.viewAllbtn {
+  margin-left: 450px !important;
+  background-color: brown;
+  color: #fffff2;
+}
+
+
+
+
+
+.limitedCarouselRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 11px;
+  box-sizing: border-box;
+}
+
+.limitedSlider_container {
+  padding: 0 5px !important;
+  box-sizing: border-box;
+}
+
+.limitedSlider_section {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.limitedSlider_section a img {
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+}
+
+/*       fitness carousel css  */
+.fitnessCarousel_Container {
+  background-color: rgb(161, 177, 196);
+  align-items: center;
+  margin-right: 16px !important;
+  max-width: 80rem !important ;
+
+  height: 500px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.fitnessViewAllbtn {
+  margin-left: 450px !important;
+  background-color: rgb(161, 177, 196);
+  color: #fffff2;
+}
+
+#bestSeller_Container{
+  background-color: rgb(250,132,119);
+  align-items: center;
+  margin-right: 16px !important;
+  max-width: 80rem !important ;
+  height: 500px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.bestSellerViewAllbtn {
+  margin-left: 450px !important;
+  background-color: rgb(250,132,119);
+
+  color: #fffff2;
+}
+
+#newArrival_Container{
+   background-color: rgb(100,207,223);
+   align-items: center;
+   margin-right: 16px !important;
+   max-width: 80rem !important ;
+   height: 500px;
+   padding: 0 10px;
+   box-sizing: border-box;
+   margin-top: 20px;
+}
+
+.newArrivalViewAllbtn {
+  margin-left: 450px !important;
+  background-color: rgb(100,207,223);
+
+
+  color: #fffff2;
+}

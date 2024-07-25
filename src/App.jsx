@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import LimitedProductsDetails from "./pages/HomeMiddlePages/LimitedProductsDetails";
+import AllFitness from "./components/HomeMiddleCards/AllFitness";
+import FitnessProductDetails from "./pages/HomeMiddlePages/FitnessProductDetails";
+import HomeBodyMainPage from "./pages/HomeMiddlePages/HomeBodyMainPage";
+import OffersList from "./components/HomeLimitedCarouselViewAll/OffersList";
+
+import BestSellersProductDetails from "./pages/HomeMiddlePages/BestSellersProductDetails";
+import NewArrivalProductDetails from "./pages/HomeMiddlePages/NewArrivalProductDetails";
+// import AllLimited from "./components/HomeMiddleCards/AllLimited";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomeBodyMainPage />} />
+          {/* <Route path="limitedViewAll" element={<AllLimited/>} /> */}
+          <Route path="limitedViewAll" element={<OffersList />} />
+          <Route
+            path="/limitedProductDatails/:limitedProductId"
+            element={<LimitedProductsDetails />}
+          />
+          {/* <Route path="fitnessViewAll" element={<AllFitness />} />
+          <Route
+            path="fitnessProductDatails/:fitnessProductId"
+            element={<FitnessProductDetails />}
+          /> */}
+
+          <Route
+            path="bestSellersProductDetails/:bestSellerProductId"
+            element={<BestSellersProductDetails />}
+          />
+
+          <Route
+            path="newArrivalProductDetails/:newArrivalProductId"
+            element={<NewArrivalProductDetails />}
+          />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
-export default App
+export default App;
