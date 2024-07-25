@@ -1,0 +1,44 @@
+.FooterHeadBContainer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+  
+}
+.FooterHeadRow{
+    display: flex;
+    /* justify-content:space-between; */
+    border-bottom: 1px solid rgb(61, 59, 59) ;
+    margin:10px;
+    padding-bottom: 30px;
+   
+
+
+}
+
+.FooterHeadBlock{
+    display: flex;
+
+}
+
+.FooterHeadImg img{
+    height: 100px;
+    width: 100px;
+    margin-right:10px ;
+    
+}
+
+.FooterHeadTextBlock{
+    margin: 15px;
+}
+
+.FooterHeadNumber{
+    font-weight: 500;
+
+
+}
+
+.FooterHeadText{
+    font-weight: 400;
+    font-size: large;
+   
+
+}

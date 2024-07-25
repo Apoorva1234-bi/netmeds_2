@@ -1,0 +1,32 @@
+.PaymentPartnerBlock{
+    height: 100px;
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
+.PaymentHeading{
+    font-weight: 500;
+    font-size:medium;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.PaymentImages{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  
+  
+}
+
+.FooterLinks{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.FooterLinks li{
+    list-style: none ;
+}

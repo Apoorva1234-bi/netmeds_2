@@ -1,0 +1,99 @@
+.FooterContainerMain{
+    display: flex;
+    padding: 30px; 
+   
+}
+
+.BrowserRouterContainer{
+    display: flex;
+}
+
+.FooterContainerLinkBlock{
+    display: inline-block ;
+    align-items: center;
+    padding: 15px;
+  
+}
+
+    
+
+.FooterContainerLinkTitle{
+    font-size: medium;
+   font-weight: 500;
+}
+
+.FooterContainerLinks{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; 
+    margin-left: -30px;
+  
+
+    
+}
+
+.FooterContainerLinks li{
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.FooterContainerLinks li a {
+    text-decoration: none;
+    color: black;
+
+   
+}
+
+.FooterContainerLinks li .Links{
+    font-size: 15px;
+    /* letter-spacing: normal; */
+    font-weight:450
+    
+}
+
+.FooterContainerSubscribeBlock{
+    margin-top: 5px;
+   
+}
+
+.SubscribeTitle{
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.SubscribePara{
+    font-size: 16px;
+    font-weight:450
+    
+
+}
+
+.SubscribeInput{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+
+}
+
+
+
+.SubscribeButton{
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(219, 223, 223);
+    margin-left: 10px;
+   
+}
+
+.SubscribeImages{
+    padding-top: 10px;
+
+}
+
+.SubscribeImg{
+    margin : 5px;
+}

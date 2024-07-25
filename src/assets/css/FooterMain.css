@@ -1,0 +1,23 @@
+.FooterMainContainer{
+    border-bottom: 1px solid gray;
+    padding: 40px;
+}
+
+.FooterMainRow{
+    display: flex;
+   
+}
+
+.NetmedsFooterLogoImage{
+    margin: 5px;
+   
+
+
+}
+
+.NetmedsFooterLogoPara{
+    display: flex;
+    font-size: 16px;
+    line-height: 25px;
+
+}
