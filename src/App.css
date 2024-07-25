@@ -1,42 +1,320 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body{
+    background-color: #e9ecef;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+    height: auto;
+    
+}
+  
+.AllMedicineheading{
+    color: aqua;
+font-size: 20px;
+padding:4px 0px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.alphabet-container {
+  display: flex;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.alphabet {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.alphabet:hover {
+  background-color: skyblue;
+}
+
+.alphabet.active {
+  background-color: skyblue;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+
+
+/* BuyAgain */
+
+.flex-container {
+    display: flex;
+    margin:50px 250px 5px 250px;
+    border-radius: 10px 20px 15px 5px;
+    background-color:white;
+    /* width: 488px; */
+    height: 550px;
+    padding: 10px 28px !important;
+  }
+
+  h1{
+    padding: 0;
+    margin: 0 0 8px;
+  }
+
+  #para{
+    color: rgba(21, 27, 57, .6);
+    margin-bottom: 35px;
+  }
+.number{
+    /* padding: 0px 0 0px 0rem; */
+    margin-bottom: 15px;
+    border: none;
+    
+}
+
+  
+
+.large-button {
+    width: 70%;
+    background-color: #1ec8cb;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px ;
+    margin: 4px 2px 55px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.item {
+    flex: 1;
+    padding: 20px;
+    border: 1px #ccc;
+    margin-top: 10px;
+    
+  }
+.OrderMedicineOnline{
+    display: "flex" 
+  
+}
+
+pre{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+   
+   
+#information{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.vl {
+    border-left: 1px solid black;
+    height: 10pc;
+  }
+
+  .color{
+color: red;
+  }
+
+  #buttom{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(21, 27, 57, .6);
+  }
+
+  
+#large-button1 {
+  width: 50%;
+  background-color: #ef4281;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px ;
+  margin: 4px 2px 75px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#large-button2 {
+  width: 50%;
+  background-color: #24aeb1;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px ;
+  margin: 4px 2px 75px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none; 
+  
+}
+
+.underline1{
+  text-decoration:none;
+  border: none;
+  background-color: #ef4281;
+}
+.underline2{
+  text-decoration:none;
+  border: none;
+  background-color:  #24aeb1;
+}
+
+
+
+#consult{
+  position: relative;
+ float:left;
+}
+
+/* #flash{
+ 
+} */
+
+#font{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 1px 0 0;
+}
+
+#link{
+  display: flex;
+
+
+}
+
+.sublink{
+  position: relative;
+  text-decoration: none;
+  color:rgba(21, 27, 57, .6);
+  font-size: 1rem;
+  padding: 15px 15px 15px 30px;
+  text-align: center;
+
+ 
+  
+}
+
+.border{
+  border: 2px solid rgba(21, 27, 57, .2);
+  margin: 30px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  height: 45px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
+/* src/components/ProductCard.css */
 .card {
-  padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    text-align: center;
 }
 
-.read-the-docs {
-  color: #888;
+.card img {
+    max-width: 100%;
+    height: auto;
 }
+
+.card-body {
+    padding: 8px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    margin: 8px 0;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+
+/*orderOnline.css-shopbycategory*/
+
+.membershipContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: auto;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.details {
+  flex: 1;
+}
+
+.details h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.details p {
+  margin: 10px 0 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.price {
+  font-size: 18px;
+  color: #ff4081;
+}
+
+.action button {
+  background-color: #ffc107;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.action button:hover {
+  background-color: #e0a800;
+}
+
+
+
